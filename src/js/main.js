@@ -1,0 +1,1 @@
+const countUp = new CountUp('container300', 989, { enableScrollSpy: true });

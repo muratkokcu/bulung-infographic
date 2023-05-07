@@ -1,0 +1,46 @@
+// @font-face {
+//     font-family: 'Basier-Bold';
+//     src: url('../../../assets/fonts/BasierCircle-Bold.otf');
+// }
+@font-face {
+    font-family: 'Basier-Semibold';
+    src: url('../../../assets/fonts/basier/BasierCircle-SemiBold.eot');
+    src: url('../../../assets/fonts/basier/BasierCircle-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../../../assets/fonts/basier/BasierCircle-SemiBold.woff2') format('woff2'),
+        url('../../../assets/fonts/basier/BasierCircle-SemiBold.woff') format('woff'),
+        url('../../../assets/fonts/basier/BasierCircle-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basier-Bold';
+    src: url('../../../assets/fonts/basier/BasierCircle-Bold.eot');
+    src: url('../../../assets/fonts/basier/BasierCircle-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../../assets/fonts/basier/BasierCircle-Bold.woff2') format('woff2'),
+        url('../../../assets/fonts/basier/BasierCircle-Bold.woff') format('woff'),
+        url('../../../assets/fonts/basier/BasierCircle-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+// @font-face {
+//     font-family: 'Basier-Semibold';
+//     src: url('../../../assets/fonts/BasierCircle-SemiBold.otf');
+// }
+
+
+h1, h2, h3, h4, h5, h6, strong, label {
+    font-family: 'Basier-Bold', Fallback, sans-serif !important;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+ul, li, p, a, span, small, input, button, textarea, select, tr, th, td {
+    font-family: 'Basier-Semibold', Fallback, sans-serif !important;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

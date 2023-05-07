@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-SemiBold.eot');
+    src: url('BasierCircle-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('BasierCircle-SemiBold.woff2') format('woff2'),
+        url('BasierCircle-SemiBold.woff') format('woff'),
+        url('BasierCircle-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basier Circle';
+    src: url('BasierCircle-Bold.eot');
+    src: url('BasierCircle-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BasierCircle-Bold.woff2') format('woff2'),
+        url('BasierCircle-Bold.woff') format('woff'),
+        url('BasierCircle-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
